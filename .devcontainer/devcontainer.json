@@ -1,0 +1,20 @@
+{
+  "name": "Engineering Dev Env",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "python.pythonPath": "/opt/conda/bin/python"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-azuretools.vscode-docker",
+    "GitHub.vscode-pull-request-github"
+  ],
+  "forwardPorts": [8888],
+  "remoteUser": "jovyan",
+  "postCreateCommand": "echo Ready to code in Jupyter + Python!"
+}

@@ -1,0 +1,25 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc
+
+# Ignore Docker files that shouldn't be versioned
+*.log
+*.pid
+
+# VS Code and Dev Container settings
+.vscode/
+.devcontainer/*.local.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
