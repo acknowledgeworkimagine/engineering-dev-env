@@ -5,7 +5,7 @@ FROM jupyter/scipy-notebook:latest
 # Set working directory inside the container
 WORKDIR /home/jovyan/work
 
-# Install additional tools useful for engineers
+# Install additional tools useful for engineers and yourself
 RUN pip install \
     jupyterlab \
     matplotlib \
