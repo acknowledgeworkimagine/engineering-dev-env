@@ -7,4 +7,4 @@ if "%1"=="" (
 docker run -it --rm --name eng-python-runner ^
  -v %cd%:/home/jovyan/work ^
  -w /home/jovyan/work ^
- eng-dev-env python %1
+ 3liaz/eng-dev-env python %1
